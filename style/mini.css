@@ -1,0 +1,198 @@
+html{
+	background-color: #262626;
+}
+
+.header{
+	background-color: #A4C4FF;
+	height: 260px;
+	width: 100%;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.name{
+	font-family: "Alliance No.1";
+	font-size: 28px;
+	font-weight: 200;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	background-color: #DFEFFF;
+	height: 61px;
+	padding-top: 20px;
+	width: 400px;
+	margin-right: 250px;
+	margin-top: 75px;
+	border-radius: 25px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 15px;
+	text-shadow: 2px, black;
+}
+
+.pic{
+	display: inline-block;
+	float: left;
+	padding-left: 150px;
+	padding-top: 25px;
+}
+
+.nav{
+	height: 120px;
+	width: 100%;
+	background-color: #94F5FF;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.options{
+	text-align: center;
+	height: 40px;
+	width: 150px;
+	padding-top: 20px;
+	font-family: "Alliance No.1";
+	background-color: #eed5c0;
+	color: #07262A;
+	display: inline-block;
+	margin-left: 89px;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+
+
+.main{
+	width: 100%;
+	height: 2000px;
+	background-color: #FFF6EC;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.pager{
+	width: 90%;
+	height: 60px;
+	background-color: aliceblue;
+	border-radius: 10px;
+	padding-left: 50px;
+	margin-left: 30px;
+
+}
+
+.pagernum{
+	outline: #a4c4ff solid 2px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	margin-left: 249px;
+	padding: 4px;
+	margin-top: 17px;
+	font-family: "Arial";
+	font-weight: 100;
+	border-radius: 5px;
+	color: slategrey;
+}
+
+@keyframes pagernumhover{
+	from {background-color: aliceblue; color:slategrey;}
+	to {background-color: #B8DEFF; color: black;}
+}
+
+.pagernum:hover{
+	animation-name: pagernumhover;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+.footer{
+	width: 100%;
+	height: 400px;
+	background-color: #88B7B1;
+	color: #07262A;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.item{
+	display: inline-block;
+	outline: #a9a9a9 solid 2px;
+	border-radius: 10px;
+	margin-left: 110px;
+	float: left;
+	text-align: center;
+	padding: 3px;
+	background-color: white;
+	margin-top: 50px;
+	font-family: "Helvetica";
+}
+
+@keyframes itemhover{
+	from {background-color: white; color: black;border-radius: 10px;}
+	to {background-color: #CCDEFF; color: #001280;border-radius: 30px;}
+
+}
+
+.item:hover{
+	animation-name: itemhover;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function:ease-out;
+}
+
+img{
+	border-radius: 30px;}
+
+.map{
+	margin-top: 10px;
+	margin-left: 30px;
+	display: inline-block;
+	float: left;
+}
+
+.contact{
+	display: inline-block;
+	float: left;
+	padding:2px;
+	text-decoration: none;
+	font-family: "Alliance No.2";
+	font-weight: 200;
+	font-size: 19px;
+	width: 350px; 
+}
+
+.copyright{
+	display: inline-block;
+	float: right;
+	padding:2px;
+	text-decoration: none;
+	font-family: "Alliance No.2";
+	font-weight: 200;
+	font-size: 25px;
+	margin-right: 35px;
+	text-align: center;
+}
+
+td{
+	text-align: center;
+}
+
+.form{
+	background-color: #DDDDDD;
+	margin-top: 50px;
+	margin-left: 490px;
+	border-radius: 15px;
+	font-family: "Verdana";
+	padding-right: 20px;
+}
+
+#mainlog{
+	width: 100%;
+	height: 600px;
+	background-color: #FFF6EC;
+	border-radius: 10px;
+}

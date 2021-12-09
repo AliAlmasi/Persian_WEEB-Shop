@@ -1,0 +1,267 @@
+html{
+	background-color: #262626;
+}
+
+.header{
+	background-color: #A4C4FF;
+	height: 400px;
+	width: 100%;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.name{
+	font-family: "Alliance No.1";
+	font-size: 32px;
+	font-weight: 200;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	background-color: #DFEFFF;
+	height: 70px;
+	padding-top: 20px;
+	width: 500px;
+	margin-right: 250px;
+	margin-top: 150px;
+	border-radius: 25px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 15px;
+	text-shadow: 2px, black;
+}
+
+.pic{
+	display: inline-block;
+	float: left;
+	padding-left: 100px;
+	padding-top: 25px;
+}
+
+.nav{
+	height: 150px;
+	width: 100%;
+	background-color: #94F5FF;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.options{
+	text-align: center;
+	height: 40px;
+	width: 150px;
+	padding-top: 20px;
+	font-family: "Alliance No.2";
+	background-color: #eed5c0;
+	color: #07262A;
+	display: inline-block;
+	margin-left: 89px;
+	margin-top: 50px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+
+.main{
+	width: 100%;
+	height: 1000px;
+	background-color: #FFF6EC;
+	border-radius: 10px;
+}
+
+.footer{
+	width: 100%;
+	height: 400px;
+	background-color: #88B7B1;
+	color: #07262A;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+img{
+	border-radius: 30px;}
+
+
+.side{
+	display: inline-block;
+	float: left;
+	background-color: #ffcc95;
+	width: 25%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+.sidempty{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 4px;
+	height: 70px;
+	background: rgb(255,239,149);
+	background: linear-gradient(0deg, rgba(255,239,149,1) 0%, rgba(255,204,149,1) 41%);
+}
+
+.sidempty2{
+	height: 40px;
+	background: rgb(255,239,149);
+	background: linear-gradient(180deg, rgba(255,239,149,1) 0%, rgba(255,204,149,1) 42%);
+	margin-bottom: 25px;
+}
+
+.sidtitle{
+	text-align: center;
+	font-family: "Alliance No.2";
+	font-weight: 500;
+	font-size: 20px;
+	height: 37px;
+	background-color: #ffef95;
+}
+
+.sideoptions{
+	background-color: #ffef95;
+	width: 50%;
+	padding-left: 60px;
+	font-family: "Arial Rounded MT";
+	font-size: 22px;
+	margin-top: 20px;
+	border-radius: 13px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+@keyframes sideoptionshover{
+	from {background-color: #ffef95;}
+	to {background-color: #ff9d31;}
+}
+
+.sideoptions:hover{
+	animation-name: sideoptionshover
+}
+
+.map{
+	margin-top: 10px;
+	margin-left: 30px;
+	display: inline-block;
+	float: left;
+}
+
+.contact{
+	display: inline-block;
+	float: left;
+	padding:2px;
+	text-decoration: none;
+	font-family: "Alliance No.2";
+	font-weight: 200;
+	font-size: 19px;
+	width: 350px; 
+}
+
+.copyright{
+	display: inline-block;
+	float: right;
+	padding:2px;
+	text-decoration: none;
+	font-family: "Alliance No.2";
+	font-weight: 200;
+	font-size: 25px;
+	margin-right: 35px;
+	text-align: center;
+}
+
+.frameheader{
+	text-align: center;
+	font-size: 28px;
+	height: 60px;
+	padding-top: 30px;
+	font-family: "Arial";
+	margin-left: 90px;
+	margin-top: 30px;
+	background-color: #1c9440;
+	color: white;
+	width: 300px;;
+	float: left;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.frameheader:hover{
+	animation-name: frameheaderanim;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function:ease-out;
+}
+@keyframes frameheaderanim{
+	from{border-radius: 5px;}
+	to{border-radius: 15px;}
+}
+
+.mostliked{
+	display: inline-block;
+	outline: #a9a9a9 solid 2px;
+	border-radius: 10px;
+	margin-left: 110px;
+	float: left;
+	text-align: center;
+	padding: 3px;
+	background-color: white;
+	margin-top: 50px;
+	font-family: "Helvetica";
+}
+
+@keyframes mostlikedhover{
+	from {background-color: white; color: black;border-radius: 10px;}
+	to {background-color: #CCDEFF; color: #001280;border-radius: 30px;}
+
+}
+
+.mostliked:hover{
+	animation-name: mostlikedhover;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function:ease-out;
+}
+
+.holder{
+	display: inline-block;
+}
+
+.aboutusheaders{
+	background-color: #ffe3cd;
+	padding: 3px;
+	margin-left: 60px;
+	margin-top: 5px;
+	width: 550px;
+	padding-left: 20px;
+	color: #333333;
+	text-shadow: 0 2px 3px #701945;
+	border-radius: 10px;
+	font-family: "Alliance No.1";
+}
+
+.aboutustxt{
+	background-color: #cdfff9;
+	font-size:26px;
+	padding: 3px;
+	margin-left: 200px;
+	margin-top: 60px;
+	width: 800px;
+	padding-left: 20px;
+	color: #333333;
+	border-radius: 10px;
+	font-family: tahoma;
+}
+
+.aboutusimg{
+	float: right;
+	display: inline-block;
+}
+
+#aboutusmain{
+	width: 100%;
+	height: 600px;
+	background-color: #FFF6EC;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
