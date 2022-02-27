@@ -1,4 +1,5 @@
 # Persian_WEEB-Shop
-## just a project for school.
+## Just a project for school.
 
-use any web development environment (like wamp)
+Use any web development environment (like WAMP)  
+Thanks to Mr. Rahimian
