@@ -152,7 +152,7 @@ img{
 	font-family: "Alliance No.2";
 	font-weight: 200;
 	font-size: 19px;
-	width: 350px; 
+	width: 350px;
 }
 
 .copyright{
@@ -242,7 +242,7 @@ img{
 .aboutustxt{
 	background-color: #cdfff9;
 	font-size:26px;
-	padding: 3px;
+	padding: 20px;
 	margin-left: 200px;
 	margin-top: 60px;
 	width: 800px;
@@ -252,11 +252,6 @@ img{
 	font-family: tahoma;
 }
 
-.aboutusimg{
-	float: right;
-	display: inline-block;
-}
-
 #aboutusmain{
 	width: 100%;
 	height: 600px;
@@ -264,4 +259,18 @@ img{
 	border-radius: 10px;
 	margin-top:10px;
 	margin-bottom:10px;
+}
+
+.gitlink{
+	background-color: #0d1117;
+	padding: 3px;
+	margin-right: 140px;
+	margin-top: 100px;
+	width: 100px;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 5px;
+	font-family: "Segoe UI";
+	float: right;
+
 }

@@ -162,7 +162,7 @@ img{
 	font-family: "Alliance No.2";
 	font-weight: 200;
 	font-size: 19px;
-	width: 350px; 
+	width: 350px;
 }
 
 .copyright{
@@ -195,4 +195,28 @@ td{
 	height: 600px;
 	background-color: #FFF6EC;
 	border-radius: 10px;
+}
+
+#mainlog2{
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	background-color: #FFF6EC;
+	border-radius: 10px;
+}
+
+#actionform{
+	display: inline-block;
+	float: right;
+	width: 60%;
+	height: 230px;
+	text-align: center;
+	margin-top: 150px;
+	margin-right:250px;
+	padding-top: 50px;
+	background-color: #4c4c4c;
+	border-radius: 10px;
+	font-size: 14pt;
+	font-family:"Verdana";
+	color: #f4efe7;
 }
